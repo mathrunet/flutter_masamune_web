@@ -1,0 +1,34 @@
+name: masamune_web
+description: >-
+  Provides functionality for Flutter Web.
+version: 0.5.0
+homepage: https://mathru.net
+repository: https://github.com/mathrunet/flutter_masamune_web
+
+environment:
+  sdk: ">=2.8.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Masamune
+  masamune_core: ^0.5.0
+  masamune_flutter: ^0.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  # Masamune
+  masamune_test: ^0.5.0
+
+# dependency_overrides:
+#   masamune_core:
+#     path: ../masamune_core/
+#   masamune_localize:
+#     path: ../masamune_localize/
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
