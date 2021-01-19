@@ -10,3 +10,4 @@ library masamune.web;
 
 import 'dart:html';
 export 'package:masamune_core/masamune_core.dart';
+export 'package:masamune_flutter/masamune_flutter.dart';

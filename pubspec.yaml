@@ -1,7 +1,7 @@
 name: masamune_web
 description: >-
   Provides functionality for Flutter Web.
-version: 0.6.1
+version: 0.6.2
 homepage: https://mathru.net
 repository: https://github.com/mathrunet/flutter_masamune_web
 
@@ -12,6 +12,7 @@ dependencies:
   flutter:
     sdk: flutter
   # Masamune
+  masamune: ^0.6.0
   masamune_core: ^0.6.0
   masamune_flutter: ^0.6.0
 
